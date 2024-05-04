@@ -1,0 +1,99 @@
+body {
+    background: #E2D4FF;
+    font-family: "Inria Sans", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#weather-card {
+    background: #FFFFFF;
+    max-width: 580px;
+    padding: 20px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+h2, label, p {
+    color: #000000;
+    margin: 8px 0;
+    font-weight: 400;
+}
+
+input {
+    width: calc(100% - 16px);
+    padding: 5px 10px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    border: 1px solid #CFA2EB;
+    margin-top: 20px;
+    font-family: "Inria Sans", sans-serif;
+}
+
+input::placeholder {
+    color: #969696;
+    font-family: "Inria Sans", sans-serif;
+}
+
+input:focus {
+    outline: 0;
+    font-family: "Inria Sans", sans-serif;
+    box-sizing: border-box;
+}
+
+button {
+    background: #E2D4FF;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-family: "Inria Sans", sans-serif;
+    padding: 5px;
+    border: 1px solid #CFA2EB;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    width: 90px;
+    font-size: 17px;
+    transition: 1s;
+}
+
+button:hover {
+    background: #F0EBFA;
+    color: #B9A5C5;
+    border: 1px solid #E2D4FF;
+    border-radius: 30px;
+    transform: scale(1.1);
+}
+
+#temperature p {
+    font-size: 60px;
+    font-family: "Inria Sans", sans-serif;
+    margin-top: 10px;
+}
+
+#weather-info {
+    font-size: 20px;
+    font-family: "Inria Sans", sans-serif;
+}
+
+#weather-icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 15px;
+    margin-bottom: 5px;
+    display: none;
+}
+
+#hourly-forecast {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hourly-item img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+}
