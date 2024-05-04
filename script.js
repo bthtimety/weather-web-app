@@ -1,5 +1,5 @@
 function getWeather() {
-    const keyAPI = '';
+    const keyAPI = '';  // здесь будет api key, который можно получить на OpenWeather
     const city = document.getElementById('city').value;
 
     if(!city) {
